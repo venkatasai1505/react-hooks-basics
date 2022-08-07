@@ -1,0 +1,78 @@
+body {
+  padding: 20px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circleEntry {
+  display: flex;
+  background-color: #fff;
+  height: 30rem;
+  width: 60rem;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100,100,100) 0px 7px 29px ;
+}
+
+.functionSec {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.functionSec h1 {
+  font-size: 25px;
+}
+.functionSec h1 span {
+  color: rgb(25, 216, 53);
+}
+button {
+  margin-right: 10px;
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, 'Segoe UI', Roboto,unset;
+    
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+button:hover,
+button:focus {
+  background-color: #0e9fa1;
+  color: wheat;
+}
+
+button:enabled {
+  background: #2d08a6;
+  color: rgba(32, 203, 230, 0.986);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: rgba(20, 174, 161, 0.895);
+  color: rgba(32, 128, 197, 0.802);
+}
